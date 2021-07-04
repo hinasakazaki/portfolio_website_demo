@@ -8,7 +8,7 @@ hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 # Go To Public folder
 cd public
 
-git pull origin master
+git pull origin main
 # Add changes to git.
 git add .
 
@@ -20,7 +20,7 @@ fi
 git commit -m "$msg"
 
 # Push source and build repos.
-git push origin master
+git push origin main
 
 # Come Back up to the Project Root
 cd ..
