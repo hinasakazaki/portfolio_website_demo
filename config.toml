@@ -1,0 +1,95 @@
+baseurl = "https://example.org/"
+languageCode = "en-us"
+title = "Eric Delgado, Composer"
+theme = "hugo-creative-theme"
+googleAnalytics = ""
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more information take a look at the README.
+
+	# To provide some metadata for search engines feel free to add some
+	# information about you and your website.
+	name = "Eric Delgado"
+	description = "Composer"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Eric Delgado"
+
+		[params.navigation.links]
+			about     = "About"
+			services  = "Services"
+			portfolio = "Portfolio"
+            philosophy= "Teaching Philosophy"
+			contact   = "Contact"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Eric Delgado"
+		subtitle   = "Composer, flautist, teacher"
+		buttonText = "Bio"
+
+
+	# About section
+	[params.about]
+		headline    = "Bio"
+        description = "California-born educator-musician Eric Delgado is currently based in Madison, Wisconsin. His works have been performed and publicly read by professional ensembles such as the Del Sol String Quartet, The Florida Orchestra, the Frost Symphony Orchestra, the JACK Quartet, Our Time Wind Quintet, and members of the Cleveland Orchestra. <br><br> From 2015 to 2017, Eric served as band director at the Children’s Creative and Performing Arts Academy (CCPAA) of San Diego, teaching instrumental courses at both the high school and middle school divisions. In 2017, he started work as a teaching assistant and then lecturer in the Experiential Music Curriculum (EMC) at the University of Miami, Frost School of Music. As an EMC instructor, Eric taught two undergraduate-level music theory courses and aural skills every semester. During the 2020-2021 academic year, he received a Graduate School Fellowship from the University of Wisconsin, Madison and will be a teaching assistant for Music in Performance: Music 113 starting in August 2021.  <br><br> Eric holds degrees from the University of California, Berkeley and the University of Miami’s Frost School of Music in Florida. His previous mentors include Ken Ueno, Cindy Cox, Charles Mason, Dorothy Hindman, Lansing McLoskey, and Laura Schwendinger. Since August 2020, He has been working towards a Doctor of Musical Arts degree at the University of Wisconsin, Madison under the guidance of Les Thimmig."
+	# Service section
+	[params.services]
+		headline = "Work with Eric"
+
+        [[params.services.list]]
+            icon = "fa-book"
+            title = "1-1 Lessons"
+            description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at fermentum sem."
+
+        [[params.services.list]]
+			icon = "fa-quote-right"
+			title = "Lectures"
+			description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at fermentum sem."
+
+		[[params.services.list]]
+            icon = "fa-music"
+            title = "Commissions"
+            description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at fermentum sem."
+            
+		[[params.services.list]]
+            icon = "fa-plus"
+            title = "Et Cetra"
+            description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at fermentum sem."
+            
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+	# Philosophy section
+	[params.philosophy]
+		headline    = "Teaching Philosophy"
+        description = "My goal as an educator is to reinforce the link between analytical understanding and performance practice in the classroom. Creating an approachable learning environment is pivotal in allowing students to find creative applications of concepts to music. From my personal experience, clarity of presentation goes a long way towards dispelling the apprehension in learning music theory and composition."
+	
+	# Contact section
+	[params.contact]
+		headline = "Links"
+		description = "See my other works at soundcloud and email me for any questions."
+		soundcloud = "https://soundcloud.com/ericdelgadomusic"
+		email = "ericdelgadomusic@gmail.com"
