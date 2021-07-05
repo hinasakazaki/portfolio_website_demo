@@ -1,4 +1,4 @@
-baseurl = "https://example.org/"
+baseurl = "https://hinasakazaki.github.io/portfolio"
 languageCode = "en-us"
 title = "Eric Delgado, Composer"
 theme = "hugo-creative-theme"
